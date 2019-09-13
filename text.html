@@ -1,16 +1,25 @@
 
 <!DOCTYPE html>
 <html>
-  <body>
+  <head>
+    <title> DUmb CHAT </title>
      <link rel="stylesheet" href="text.css">
     <?php include 'text.php';?>
+  </head>
     
-    <h1> welcome to the chat</h1>
+    <h1> welcome to the Dumb chat</h1>
+  <div id="wrapper">
+    <div id = "menu">
+      <p class = "welcome">Welcome to the dumb chat, <br></p>
+      <p class = "logout"><a id="exit" href="#">Exit the Chat</a></p>
+    </div>
     
+    
+    <div id="chatbox"></div>
+    <form name = "message" action"">
     <input type= "text" id="name" placeholder="enter name"></input>
-    <input type= "text" id="name" placeholder="enter message"></input>
-    <ul id="msgs">
-</ul>
+    <input type= "text" id="submitmsg" placeholder="enter message"></input>
+  </form>
   
    
 <input type="submit"></input>
